@@ -1,0 +1,59 @@
+:root {
+    --purple: purple;
+    --sky: #4F91FC;
+    --white: white;
+    --black: #000000;
+    --bg-gray: #EFEFEF;
+    --footer-link: #CCCCCC;
+
+
+
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 24px;
+    --fs-2xl: 48px;
+    --fs-3xl: 60px;
+    --fs-4xl: 64px;
+
+
+    -line-height-21: 12px;
+    -line-height-24: 24px;
+    -line-height-26: 26px;
+    -line-height-33: 33px;
+    -line-height-52: 52px;
+    -line-height-66: 66px;
+    -line-height-70: 70px;
+
+
+}
+
+.color-purple {
+    color: var(--purple) !important;
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.colorsky {
+    color: var(--sky);
+
+}
+
+.color_white {
+    color: var(--white);
+
+}
+
+.color_black {
+    color: var(--black);
+}
+
+.color_gray {
+    color: var(--bg-gray);
+}
+
+.footer_link {
+    color: var(--footer-link);
+}

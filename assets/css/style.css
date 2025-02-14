@@ -1,0 +1,213 @@
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.max-w-764 {
+    max-width: 764px;
+}
+
+.pt-67 {
+    padding-top: -67px;
+}
+
+.btn2 {
+    height: 56px;
+    max-width: 172px;
+    border-radius: 61px;
+    border: none;
+    text-align: center;
+    padding: 16px 42px;
+
+
+}
+
+.btn {
+    width: 159px;
+    height: 56px;
+    border-radius: 61px;
+
+
+
+}
+
+.color-purple {
+    color: var(- --purple)
+}
+
+.max-w-764 {
+    max-width: 536px;
+    font-size: 16px;
+    font-family: semi bold;
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pt-106 {
+    padding-top: 106px;
+}
+
+.pt-45 {
+    padding-top: 45.8px;
+}
+
+.pt-124 {
+    padding-top: 124px;
+}
+
+.pt-175 {
+    padding-top: 175px;
+
+}
+
+.d-flex1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text {
+
+    padding-left: 46px;
+}
+
+.d-flex2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.gap-205 {
+    gap: 205px;
+}
+
+.fw-bold {
+    font-weight: 700;
+
+}
+
+.font-size {
+    font-size: 48px;
+
+}
+
+.pt-106 {
+    padding-top: 106px;
+}
+
+.btn3 {
+    height: 56px;
+    max-width: 167px;
+    border-radius: 61px;
+    border: none;
+}
+
+.pb-42 {
+    padding-bottom: 42px;
+}
+
+.pt-17 {
+
+    padding-top: 17px;
+}
+
+.max-w-461 {
+
+    max-width: 461px;
+}
+
+.font-size {
+
+    font-size: 16px;
+}
+
+
+.gap-10 {
+    gap: 10px;
+}
+
+.box {
+    border: 0.5px solid var(--purple);
+    border-radius: 16px;
+    padding: 12px;
+}
+
+.max-w-462 {
+    max-width: 462px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.pt-152 {
+    padding-top: 152px;
+}
+
+.max-w-948 {
+    max-width: 948px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:992px) {
+    .menulist {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        transition: all 300ms linear;
+    }
+
+    .show {
+        right: 0;
+    }
+
+    .menulist ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .bar {
+        width: 25px;
+        height: 2px;
+        background-color: red;
+        display: block;
+        transition: all 300ms linear;
+    }
+
+    .menuicon.cros .bar1 {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .menuicon.cros .bar2 {
+        opacity: 0;
+    }
+
+    .menuicon.cros .bar3 {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+}
